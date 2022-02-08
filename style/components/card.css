@@ -1,0 +1,29 @@
+.card {
+  border: solid black;
+}
+.mainpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quest {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+button {
+  width: 100px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hashtag {
+  border: solid black 1px;
+}
