@@ -1,5 +1,5 @@
 .card {
-  border: solid black;
+  border: solid black 3px;
 }
 .mainpart {
   display: flex;
@@ -9,12 +9,12 @@
 .quest {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
 }
 .button {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
 }
 button {
   width: 100px;
