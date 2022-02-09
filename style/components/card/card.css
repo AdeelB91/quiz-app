@@ -1,23 +1,46 @@
 .card {
-  border: solid black 3px;
+  border: double rgb(12, 12, 12) 6px;
+  background-color: rgb(104, 226, 24);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: rgb(12, 11, 11);
+  border-radius: 1em;
+  padding: 10px;
+}
+
+.bookmark {
+  position: fixed;
+  top: -5px;
+  right: 10px;
+  width: 60px;
 }
 .mainpart {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.topic {
+  font-size: 35px;
+}
 .quest {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
+  font-size: 15px;
 }
 .button {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
+
 button {
-  width: 100px;
+  display: inline-block;
+  border: double black 3px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 120px;
+  padding: 5px;
+  font-size: 15px;
 }
 .tags {
   display: flex;
@@ -25,5 +48,8 @@ button {
   justify-content: space-evenly;
 }
 .hashtag {
-  border: solid black 1px;
+  border: double rgb(8, 7, 7) 6px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5px;
 }
