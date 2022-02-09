@@ -1,13 +1,13 @@
 .card {
   position: relative;
-  border: double rgb(12, 12, 12) 6px;
-  background-color: rgb(104, 226, 24);
+  border: double #333 6px;
+  background-color: rgb(24, 226, 206);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color: rgb(12, 11, 11);
+  color: #333;
   border-radius: 1em;
   padding: 10px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .bookmark {
@@ -23,36 +23,38 @@
 }
 .topic {
   font-size: 35px;
+  margin: 20px;
 }
 .quest {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
   font-size: 15px;
 }
 .button {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 button {
   display: inline-block;
-  border: double black 3px;
+  border: double #333 3px;
   border-radius: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 120px;
-  padding: 5px;
-  font-size: 15px;
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
 }
 .tags {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 20px;
 }
 .hashtag {
-  border: double rgb(8, 7, 7) 6px;
+  border: double #333 6px;
   border-radius: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 5px;
+  padding: 10px;
 }

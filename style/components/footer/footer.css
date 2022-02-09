@@ -2,10 +2,10 @@ footer {
   position: fixed;
   bottom: 0;
   z-index: 1;
-  border: double rgb(12, 12, 12) 6px;
-  background-color: rgb(104, 226, 24);
+  border: double #333 6px;
+  background-color: rgb(24, 226, 206);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color: rgb(12, 11, 11);
+  color: #333;
   border-radius: 1em;
   padding: 10px;
   width: 100%;
@@ -13,20 +13,16 @@ footer {
   flex-direction: row;
   justify-content: space-around;
 }
-h1 {
-  background-color: rgb(104, 226, 24);
-  color: rgb(10, 10, 10);
-}
 
 .homeicon {
-  width: 5%;
+  width: 50px;
 }
 .bookmarkicon {
-  width: 5%;
+  width: 50px;
 }
 .texticon {
-  width: 5%;
+  width: 50px;
 }
 .profilicon {
-  width: 5%;
+  width: 50px;
 }

@@ -2,10 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
-  background-color: rgb(3, 73, 3);
-  padding-bottom: 15%;
-  padding-top: 15%;
+  background-color: rgb(138, 253, 240);
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/15/14/32/question-mark-background-1909040_960_720.png);
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
