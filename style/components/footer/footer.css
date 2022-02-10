@@ -3,7 +3,7 @@ footer {
   bottom: 0;
   z-index: 1;
   border: double #333 6px;
-  background-color: rgb(24, 226, 206);
+  background-color: rgb(24, 226, 206, 0.656);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: #333;
   border-radius: 1em;
