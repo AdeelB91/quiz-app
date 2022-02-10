@@ -1,12 +1,12 @@
 .card {
   position: relative;
   border: double #333 6px;
-  background-color: rgba(24, 226, 206, 0.656);
+  background-color: rgba(24, 226, 206, 0.683);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: #333;
   border-radius: 1em;
   padding: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   margin-left: 20%;
   margin-right: 20%;
 }
