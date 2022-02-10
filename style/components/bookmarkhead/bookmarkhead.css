@@ -1,0 +1,106 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(24, 226, 206, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.card {
+  position: relative;
+  border: double #333 6px;
+  background-color: rgba(24, 226, 206, 0.683);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #333;
+  border-radius: 1em;
+  padding: 10px;
+  margin-bottom: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.bookmark {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+  width: 60px;
+}
+.mainpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topic {
+  font-size: 35px;
+  margin: 20px;
+}
+.quest {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  display: inline-block;
+  border: double #333 3px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: #333;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.hashtag {
+  border: double #333 6px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(24, 226, 206, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.homeicon {
+  width: 50px;
+}
+.bookmarkicon {
+  width: 50px;
+}
+.texticon {
+  width: 50px;
+}
+.profilicon {
+  width: 50px;
+}

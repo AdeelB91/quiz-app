@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(24, 226, 206, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+}
+
+.questhead {
+  margin: 50px;
+}
+
+.questcard {
+  position: relative;
+  border: double #333 6px;
+  background-color: rgba(24, 226, 206, 0.683);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #333;
+  border-radius: 1em;
+  padding: 10px;
+  margin-bottom: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.add-a-question {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+}
