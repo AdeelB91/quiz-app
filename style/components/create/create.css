@@ -5,8 +5,8 @@
 }
 @media screen and (max-width: 600px) {
   .questhead {
-    font-size: 17px;
-    margin: 20px;
+    font-size: 20px;
+    margin: 10px 0 20px 0;
   }
 }
 
@@ -17,7 +17,7 @@
   color: #333;
   border-radius: 1em;
   padding: 10px;
-  margin: 50px;
+  margin: 50px 30px 90px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,17 +34,13 @@
 .formcontainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
-}
-
-.add-a-question {
-  display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 5px;
 }
 
 legend {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 20px;
   font-weight: bolder;
 }
 
@@ -53,5 +49,5 @@ textarea {
   border: double #333 6px;
   border-radius: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 10px;
+  margin: 5px;
 }

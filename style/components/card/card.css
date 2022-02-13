@@ -6,9 +6,10 @@
   color: #333;
   border-radius: 1em;
   padding: 10px;
+  margin-top: 80px;
   margin-bottom: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 @media screen and (max-width: 600px) {
   .card {
@@ -77,8 +78,9 @@ button {
 }
 @media screen and (max-width: 600px) {
   button {
-    font-size: 10px;
+    font-size: 13px;
     padding: 5px;
+    margin-bottom: 5px;
   }
 }
 .tags {
@@ -102,7 +104,7 @@ button {
 }
 @media screen and (max-width: 600px) {
   .hashtag {
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px;
   }
 }

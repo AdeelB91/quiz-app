@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 20px 10px 10px 10px;
+  gap: 20px;
 }
 
 .profile-text {
@@ -23,6 +24,9 @@
   font-size: 20px;
 }
 
+.profile-name {
+  font-size: 20px;
+}
 .profile-tags {
   margin-bottom: 30px;
 }
