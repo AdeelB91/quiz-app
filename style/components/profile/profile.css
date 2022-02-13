@@ -6,10 +6,6 @@
   margin: 20px 10px 10px 10px;
 }
 
-.profile-pic {
-  border-radius: 3em;
-}
-
 .profile-text {
   background-color: rgba(183, 179, 179, 0.861);
   padding: 10px;
@@ -29,4 +25,9 @@
 
 .profile-tags {
   margin-bottom: 30px;
+}
+
+.profile-pic {
+  border: solid black 5px;
+  border-radius: 1em;
 }
