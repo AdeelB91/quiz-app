@@ -7,40 +7,66 @@
   border-radius: 1em;
   padding: 10px;
   margin-bottom: 100px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
+@media screen and (max-width: 600px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+  }
+}
 .bookmark {
   position: absolute;
   top: -25px;
   right: 10px;
   width: 60px;
 }
+
+.topic {
+  font-size: 35px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .topic {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
 .mainpart {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.topic {
-  font-size: 35px;
-  margin: 20px;
-}
+
 .quest {
   display: flex;
   justify-content: center;
   margin: 20px;
   font-size: 18px;
   font-weight: bold;
+  background-color: rgba(183, 179, 179, 0.861);
+  padding: 10px;
+  border-radius: 1em;
 }
+@media screen and (max-width: 600px) {
+  .quest {
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .button {
   display: flex;
   justify-content: center;
-  margin: 20px;
 }
 
 button {
-  display: inline-block;
   border: double #333 3px;
   border-radius: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -48,6 +74,12 @@ button {
   font-size: 18px;
   color: rgb(255, 255, 255);
   background-color: #333;
+}
+@media screen and (max-width: 600px) {
+  button {
+    font-size: 10px;
+    padding: 5px;
+  }
 }
 .tags {
   display: flex;
@@ -57,9 +89,20 @@ button {
   font-weight: bold;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 600px) {
+  .tags {
+    margin: 10px;
+  }
+}
 .hashtag {
   border: double #333 6px;
   border-radius: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .hashtag {
+    font-size: 10px;
+    padding: 5px;
+  }
 }

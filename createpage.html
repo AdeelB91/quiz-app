@@ -11,67 +11,62 @@
 <header>
   <h1>Create</h1>
 </header>
+
 <div class="questcard">
-  <h2 id="form-heading" class="questhead">Let's make a Quiz!</h2>
-  <p id="form-description">
-    First Step: add a question, Second Step: add an answer, Third Step: add tags
-    devided by comme and Last Step: Submit button for form.
-  </p>
-  <form aria-labelledby="form-heading" aria-describedby="form-description">
-    <fieldset>
+  <h2 id="form-heading" class="questhead">Let's create a Quiz!</h2>
+
+  <div class="formcontainer">
+    <form aria-labelledby="form-heading" aria-describedby="form-description">
       <legend>Question</legend>
       <textarea
         name="add-a-question"
         id="add-a-question"
         placeholder="type in here your question...?"
-        rows="8"
-        cols="60"
+        rows="10"
+        cols="25"
       ></textarea>
-    </fieldset>
-    <fieldset>
       <legend>Answer</legend>
       <textarea
         name="add-an-answer"
         id="add-an-answer"
         placeholder="type in here your answer...!"
-        rows="8"
-        cols="60"
+        rows="10"
+        cols="25"
       ></textarea>
-    </fieldset>
-    <fieldset>
       <legend>Tags</legend>
       <textarea
         name="add-tags"
         id="add-tags"
         placeholder="add your tags in here devided by comma,,,!"
-        rows="4"
-        cols="60"
+        rows="6"
+        cols="25"
       ></textarea>
-    </fieldset>
-  </form>
+    </form>
+  </div>
+
   <div class="button">
-    <button>Show Answer</button>
+    <button>Submit</button>
   </div>
 </div>
 <footer>
   <img
     alt="homeicon"
     class="homeicon"
-    src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+    src="/Images/outline_home_black_24dp.png"
   />
   <img
     alt="bookmarkicon"
     class="bookmarkicon"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1200px-OOjs_UI_icon_bookmark.svg.png"
+    src="Images/outline_bookmark_border_black_24dp.png"
   />
   <img
     alt="texticon"
     class="texticon"
-    src="https://icon-library.com/images/text-icon/text-icon-17.jpg"
+    src="Images/outline_post_add_black_24dp.png"
   />
   <img
     alt="profileicon"
     class="profilicon"
-    src="https://image.flaticon.com/icons/png/512/64/64572.png"
+    src="Images/outline_person_outline_black_24dp.png"
   />
 </footer>
