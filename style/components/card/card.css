@@ -108,3 +108,7 @@ button {
     padding: 5px;
   }
 }
+
+.answer {
+  display: none;
+}
