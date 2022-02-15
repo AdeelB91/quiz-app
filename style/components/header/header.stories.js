@@ -1,7 +1,7 @@
-import headerhtml from "./header.html";
+import headerhtml from './header.html';
 
 export default {
-  title: "Components/Header",
+  title: 'Components/Header',
 };
 
 export const Default = () => headerhtml;

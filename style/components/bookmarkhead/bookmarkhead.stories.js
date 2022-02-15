@@ -1,7 +1,7 @@
-import bookmarkheadhtml from "./bookmarkhead.html";
+import bookmarkheadhtml from './bookmarkhead.html';
 
 export default {
-  title: "Components/Bookmarkhead",
+  title: 'Components/Bookmarkhead',
 };
 
 export const Default = () => bookmarkheadhtml;

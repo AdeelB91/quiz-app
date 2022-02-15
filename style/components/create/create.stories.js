@@ -1,7 +1,7 @@
-import createhtml from "./create.html";
+import createhtml from './create.html';
 
 export default {
-  title: "Components/Create",
+  title: 'Components/Create',
 };
 
 export const Default = () => createhtml;
