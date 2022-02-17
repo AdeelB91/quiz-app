@@ -1,5 +1,5 @@
-const showButton = document.querySelector('.showanswerbutton');
-const answerText = document.querySelector('.answer');
+const showButton = document.querySelector('[data-js="answerbutton"]');
+const answerText = document.querySelector('[data-js="card-answer"]');
 const typeQuestCounter = document.querySelector('[data-js="counter"]');
 const textQuestArea = document.querySelector('[data-js="questtextarea"]');
 const textAnswerArea = document.querySelector('[data-js="answertextarea"]');
@@ -8,7 +8,7 @@ const textTagArea = document.querySelector('[data-js="tagtextarea"]');
 const typeTagCounter = document.querySelector('[data-js="tagcounter"]');
 
 showButton?.addEventListener('click', () => {
-  answerText.classList.toggle('answer');
+  answerText.classList.toggle('card__answer');
 });
 
 textQuestArea?.addEventListener('input', () => {

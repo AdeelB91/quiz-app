@@ -1,7 +1,7 @@
 .card {
   position: relative;
   border: double #333 6px;
-  background-color: rgb(16 225 204);
+  background-color: rgb(16 225 204 /89%);
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   color: #333;
   border-radius: 1em;
@@ -10,39 +10,30 @@
 }
 @media screen and (max-width: 600px) {
   .card {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     padding: 5px;
   }
 }
 
-.bookmark {
+.card__bookmark {
   position: absolute;
   top: -25px;
   right: 10px;
   width: 60px;
 }
 
-.topic {
+.card__topic {
   font-size: 35px;
   margin: 20px;
 }
 
 @media screen and (max-width: 600px) {
-  .topic {
+  .card__topic {
     font-size: 20px;
     margin: 10px;
   }
 }
 
-.mainpart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.quest {
+.card__quest {
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -53,14 +44,14 @@
   border-radius: 1em;
 }
 @media screen and (max-width: 600px) {
-  .quest {
+  .card__quest {
     font-size: 13px;
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-.button {
+.card__button {
   display: flex;
   justify-content: center;
 }
@@ -82,7 +73,7 @@ button {
   }
 }
 
-.tags {
+.card__tags {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -91,24 +82,24 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  .tags {
+  .card__tags {
     margin: 10px;
   }
 }
 
-.hashtag {
+.card__tags__hashtag {
   border: double #333 6px;
   border-radius: 1em;
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   padding: 10px;
 }
 @media screen and (max-width: 600px) {
-  .hashtag {
+  .card__tags__hashtag {
     font-size: 12px;
     padding: 5px;
   }
 }
 
-.answer {
+.card__answer {
   display: none;
 }
