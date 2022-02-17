@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Quiz-App| Create</title>
   </head>
 </html>
@@ -19,28 +20,40 @@
     <form aria-labelledby="form-heading" aria-describedby="form-description">
       <legend>Question:</legend>
       <textarea
+        data-js="questtextarea"
         name="add-a-question"
         id="add-a-question"
-        placeholder="type in here your question...?"
+        placeholder="Type here...?"
         rows="8"
         cols="32"
       ></textarea>
+      <div class="formcontainer">
+        <span data-js="counter">0/240</span>
+      </div>
       <legend>Answer:</legend>
       <textarea
+        data-js="answertextarea"
         name="add-an-answer"
         id="add-an-answer"
-        placeholder="type in here your answer...!"
+        placeholder="Type here...!"
         rows="8"
         cols="32"
       ></textarea>
+      <div class="formcontainer">
+        <span data-js="answercounter">0/240</span>
+      </div>
       <legend>Tags:</legend>
       <textarea
+        data-js="tagtextarea"
         name="add-tags"
         id="add-tags"
-        placeholder="add your tags in here devided by comma,,,!"
+        placeholder="Type here...!"
         rows="4"
         cols="32"
       ></textarea>
+      <div class="formcontainer">
+        <span data-js="tagcounter">0/240</span>
+      </div>
     </form>
   </div>
 
