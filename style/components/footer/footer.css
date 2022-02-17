@@ -2,8 +2,8 @@ footer {
   position: fixed;
   bottom: 0;
   z-index: 1;
-  background-color: rgba(24, 226, 206, 0.9);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(24 226 206);
+  box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   color: #333;
   padding: 10px;
   width: 100%;
@@ -15,12 +15,15 @@ footer {
 .homeicon {
   width: 50px;
 }
+
 .bookmarkicon {
   width: 50px;
 }
+
 .texticon {
   width: 50px;
 }
+
 .profilicon {
   width: 50px;
 }

@@ -6,22 +6,21 @@
 @media screen and (max-width: 600px) {
   .questhead {
     font-size: 20px;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 20px;
   }
 }
 
 .questcard {
   border: double #333 6px;
-  background-color: rgba(24, 226, 206, 0.683);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(24 226 206);
+  box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   color: #333;
   border-radius: 1em;
   padding: 10px;
-  margin: 50px 30px 90px 30px;
+  margin: 50px 30px 90px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-flow: column;
 }
 
 @media screen and (max-width: 600px) {
@@ -48,6 +47,6 @@ textarea {
   display: flex;
   border: double #333 6px;
   border-radius: 1em;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   margin: 5px;
 }

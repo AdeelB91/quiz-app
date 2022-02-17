@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/15/14/32/question-mark-background-1909040_960_720.png);
+  background-image: url('https://cdn.pixabay.com/photo/2016/12/15/14/32/question-mark-background-1909040_960_720.png');
   margin-top: 15%;
   margin-bottom: 15%;
 }
