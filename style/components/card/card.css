@@ -88,18 +88,14 @@ button {
 }
 
 .card__tags__hashtag {
-  border: double #333 6px;
+  border: double #333 4px;
   border-radius: 1em;
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   padding: 10px;
 }
 @media screen and (max-width: 600px) {
   .card__tags__hashtag {
-    font-size: 12px;
+    font-size: 10px;
     padding: 5px;
   }
-}
-
-.card__answer {
-  display: none;
 }

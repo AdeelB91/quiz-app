@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+.card__bookmark-marked {
+  border: double white 8px;
+  border-radius: 1em;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+}

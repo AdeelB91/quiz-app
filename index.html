@@ -8,13 +8,14 @@
     <script src="script.js" defer></script>
     <title>Quiz-App| Home</title>
   </head>
-  <header>
-    <h1>Quiz-App</h1>
-  </header>
   <body>
-    <main>
-      <div class="card">
+    <main data-js="homePage" class="homepage">
+      <header>
+        <h1>Quiz-App</h1>
+      </header>
+      <div data-js="card" class="card">
         <img
+          data-js="bookmark"
           class="card__bookmark"
           alt="bookmark icon"
           src="Images/outline_bookmark_black_24dp.png"
@@ -26,9 +27,14 @@
           sed diam voluptua.
         </p>
         <div class="card__button">
-          <button data-js="answerbutton">Show Answer</button>
+          <button data-js="answerbutton">
+            <span data-js="showAnswer">Show Answer</span
+            ><span data-js="hideButton" class="hide-button hidden"
+              >Hide Answer</span
+            >
+          </button>
         </div>
-        <p data-js="card-answer" class="card__answer card__quest">
+        <p data-js="card-answer" class="hidden card__quest">
           I am the answer! :)
         </p>
         <div class="card__tags">
@@ -38,33 +44,10 @@
           <p class="card__tags__hashtag">#tag??</p>
         </div>
       </div>
-      <div class="card">
+
+      <div data-js="card" class="card">
         <img
-          class="card__bookmark"
-          alt="bookmark icon"
-          src="Images/outline_bookmark_border_black_24dp.png"
-        />
-        <h2 class="card__topic">Question:</h2>
-        <p class="card__quest">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-        <div class="card__button">
-          <button data-js="answerbutton">Show Answer</button>
-        </div>
-        <p data-js="card-answer" class="card__answer card__quest">
-          I am the answer! :)
-        </p>
-        <div class="card__tags">
-          <p class="card__tags__hashtag">#tag??</p>
-          <p class="card__tags__hashtag">#tag??</p>
-          <p class="card__tags__hashtag">#tag??</p>
-          <p class="card__tags__hashtag">#tag??</p>
-        </div>
-      </div>
-      <div class="card">
-        <img
+          data-js="bookmark"
           class="card__bookmark"
           alt="bookmark icon"
           src="Images/outline_bookmark_black_24dp.png"
@@ -76,9 +59,46 @@
           sed diam voluptua.
         </p>
         <div class="card__button">
-          <button data-js="answerbutton">Show Answer</button>
+          <button data-js="answerbutton">
+            <span data-js="showAnswer">Show Answer</span
+            ><span data-js="hideButton" class="hide-button hidden"
+              >Hide Answer</span
+            >
+          </button>
         </div>
-        <p data-js="card-answer" class="card__answer card__quest">
+        <p data-js="card-answer" class="hidden card__quest">
+          I am the answer! :)
+        </p>
+        <div class="card__tags">
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+        </div>
+      </div>
+
+      <div data-js="card" class="card">
+        <img
+          data-js="bookmark"
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="Images/outline_bookmark_black_24dp.png"
+        />
+        <h2 class="card__topic">Question:</h2>
+        <p class="card__quest">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+        <div class="card__button">
+          <button data-js="answerbutton">
+            <span data-js="showAnswer">Show Answer</span
+            ><span data-js="hideButton" class="hide-button hidden"
+              >Hide Answer</span
+            >
+          </button>
+        </div>
+        <p data-js="card-answer" class="hidden card__quest">
           I am the answer! :)
         </p>
         <div class="card__tags">
@@ -89,33 +109,199 @@
         </div>
       </div>
     </main>
+    <main data-js="bookmarkPage" class="bookmarkpage hidden">
+      <header>
+        <h1>Bookmarks</h1>
+      </header>
+      <div data-js="card" class="card">
+        <img
+          data-js="bookmark"
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="Images/outline_bookmark_black_24dp.png"
+        />
+        <h2 class="card__topic">Question:</h2>
+        <p class="card__quest">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+        <div class="card__button">
+          <button data-js="answerbutton">
+            <span data-js="showAnswer">Show Answer</span
+            ><span data-js="hideButton" class="hide-button hidden"
+              >Hide Answer</span
+            >
+          </button>
+        </div>
+        <p data-js="card-answer" class="hidden card__quest">
+          I am the answer! :)
+        </p>
+        <div class="card__tags">
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+        </div>
+      </div>
+
+      <div data-js="card" class="card">
+        <img
+          data-js="bookmark"
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="Images/outline_bookmark_black_24dp.png"
+        />
+        <h2 class="card__topic">Question:</h2>
+        <p class="card__quest">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+        <div class="card__button">
+          <button data-js="answerbutton">
+            <span data-js="showAnswer">Show Answer</span
+            ><span data-js="hideButton" class="hide-button hidden"
+              >Hide Answer</span
+            >
+          </button>
+        </div>
+        <p data-js="card-answer" class="hidden card__quest">
+          I am the answer! :)
+        </p>
+        <div class="card__tags">
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+        </div>
+      </div>
+    </main>
+    <main data-js="createPage" class="createpage hidden">
+      <header>
+        <h1>Create</h1>
+      </header>
+      <div class="questcard">
+        <h2 id="form-heading" class="questcard__header">
+          Let's create a Quiz!
+        </h2>
+
+        <div class="formcontainer">
+          <form
+            aria-labelledby="form-heading"
+            aria-describedby="form-description"
+          >
+            <legend>Question:</legend>
+            <textarea
+              maxlength="200"
+              data-js="questtextarea"
+              name="add-a-question"
+              id="add-a-question"
+              placeholder="Type here...?"
+              rows="8"
+              cols="32"
+            ></textarea>
+            <div class="formcontainer">
+              <span data-js="counter">0/200</span>
+            </div>
+            <legend>Answer:</legend>
+            <textarea
+              maxlength="240"
+              data-js="answertextarea"
+              name="add-an-answer"
+              id="add-an-answer"
+              placeholder="Type here...!"
+              rows="8"
+              cols="32"
+            ></textarea>
+            <div class="formcontainer">
+              <span data-js="answercounter">0/200</span>
+            </div>
+            <legend>Tags:</legend>
+            <textarea
+              maxlength="240"
+              data-js="tagtextarea"
+              name="add-tags"
+              id="add-tags"
+              placeholder="Type here...!"
+              rows="4"
+              cols="32"
+            ></textarea>
+            <div class="formcontainer">
+              <span data-js="tagcounter">0/200</span>
+            </div>
+          </form>
+        </div>
+
+        <div class="card__button">
+          <button>Submit</button>
+        </div>
+      </div>
+    </main>
+    <main data-js="profilePage" class="profilepage hidden">
+      <header>
+        <h1>Profile</h1>
+      </header>
+      <div class="card">
+        <div class="profile-part">
+          <img
+            alt="profilepic"
+            class="profile-pic"
+            src="./Images/profile_Icon_SVG_gvqn3q.svg"
+            width="125px"
+          />
+          <h2 class="profile-name">Profile Name</h2>
+        </div>
+        <p class="profile-text">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+
+        <p class="tag-text">My Skills:</p>
+
+        <div class="card__tags">
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+          <p class="card__tags__hashtag">#tag??</p>
+        </div>
+        <div class="logout-button">
+          <button>Logout</button>
+        </div>
+      </div>
+    </main>
   </body>
   <footer>
     <nav>
-      <a href="./index.html">
+      <button data-js="homeButton" class="nav-button">
         <img
           alt="homeicon"
           class="homeicon"
           src="/Images/outline_home_black_24dp.png"
-      /></a>
-      <a href="./bookmarkpage.html">
+        />
+      </button>
+      <button data-js="bookmarkButton" class="nav-button">
         <img
           alt="bookmarkicon"
           class="bookmarkicon"
           src="Images/outline_bookmark_border_black_24dp.png"
-      /></a>
-      <a href="createpage.html">
+        />
+      </button>
+      <button data-js="createButton" class="nav-button">
         <img
           alt="texticon"
           class="texticon"
           src="Images/outline_post_add_black_24dp.png"
-      /></a>
-      <a href="./profilpage.html">
+        />
+      </button>
+      <button data-js="profileButton" class="nav-button">
         <img
           alt="profileicon"
           class="profilicon"
           src="Images/outline_person_outline_black_24dp.png"
-      /></a>
+        />
+      </button>
     </nav>
   </footer>
 </html>

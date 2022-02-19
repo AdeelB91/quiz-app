@@ -36,3 +36,8 @@
   border: solid black 5px;
   border-radius: 1em;
 }
+
+.logout-button {
+  display: flex;
+  justify-content: center;
+}
