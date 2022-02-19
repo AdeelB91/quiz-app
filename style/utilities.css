@@ -11,3 +11,7 @@
   background: none;
   border: none;
 }
+
+.markedBookmark {
+  content: url('../Images/outline_bookmark_black_24dp.png');
+}

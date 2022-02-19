@@ -1,7 +1,8 @@
 .card {
   position: relative;
-  border: double #333 6px;
-  background-color: rgb(16 225 204 /89%);
+  border-top: 5px solid #484848;
+  border-bottom: 5px solid #484848;
+  background-color: rgb(24 226 206 /95%);
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   color: #333;
   border-radius: 1em;
@@ -11,6 +12,7 @@
 @media screen and (max-width: 600px) {
   .card {
     padding: 5px;
+    margin: 80px 30px 100px;
   }
 }
 
@@ -39,7 +41,7 @@
   margin: 20px;
   font-size: 18px;
   font-weight: bold;
-  background-color: rgba(183 179 179);
+  background-color: azure;
   padding: 10px;
   border-radius: 1em;
 }
@@ -88,9 +90,10 @@ button {
 }
 
 .card__tags__hashtag {
-  border: double #333 4px;
+  border: 3px solid #484848;
   border-radius: 1em;
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
+  background-color: azure;
   padding: 10px;
 }
 @media screen and (max-width: 600px) {

@@ -11,8 +11,8 @@
 }
 
 .questcard {
-  border: double #333 6px;
-  background-color: rgb(16 225 204 /89%);
+  border: 5px solid #484848;
+  background-color: rgb(24 226 206 /95%);
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   color: #333;
   border-radius: 1em;
@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 600px) {
   .questcard {
-    padding: 10px;
-    margin-top: 100px;
+    padding: 20px 40px;
+    margin: 100px 10px;
     display: flex;
     justify-content: center;
   }
@@ -47,8 +47,9 @@ legend {
 
 textarea {
   display: flex;
-  border: double #333 6px;
+  border: solid #333 3px;
   border-radius: 1em;
   box-shadow: rgba(0 0 0 35%) 0 5px 15px;
   margin: 5px;
+  padding: 5px;
 }
