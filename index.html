@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="script.js" defer type="module"></script>
     <title>Quiz-App| Home</title>
   </head>
   <body>
@@ -281,30 +281,58 @@
     <nav>
       <button data-js="homeButton" class="nav-button">
         <img
+          data-js="homeIconBlack"
           alt="homeicon"
           class="homeicon"
           src="/Images/outline_home_black_24dp.png"
         />
+        <img
+          data-js="homeIconWhite"
+          alt="homeicon-white"
+          class="homeicon-white hidden"
+          src="/Images/outline_home_white_24dp.png"
+        />
       </button>
       <button data-js="bookmarkButton" class="nav-button">
         <img
+          data-js="bookmarkIconBlack"
           alt="bookmarkicon"
           class="bookmarkicon"
           src="Images/outline_bookmark_border_black_24dp.png"
         />
+        <img
+          data-js="bookmarkIconWhite"
+          alt="bookmarkicon-white"
+          class="bookmarkicon-white hidden"
+          src="/Images/outline_bookmark_border_white_24dp.png"
+        />
       </button>
       <button data-js="createButton" class="nav-button">
         <img
+          data-js="createIconBlack"
           alt="texticon"
           class="texticon"
           src="Images/outline_post_add_black_24dp.png"
         />
+        <img
+          data-js="createIconWhite"
+          alt="texticon-white"
+          class="texticon-white hidden"
+          src="/Images/outline_post_add_white_24dp.png"
+        />
       </button>
       <button data-js="profileButton" class="nav-button">
         <img
+          data-js="profileIconBlack"
           alt="profileicon"
           class="profilicon"
           src="Images/outline_person_outline_black_24dp.png"
+        />
+        <img
+          data-js="profileIconWhite"
+          alt="profileicon-white"
+          class="profileicon-white hidden"
+          src="/Images/outline_person_outline_white_24dp.png"
         />
       </button>
     </nav>
