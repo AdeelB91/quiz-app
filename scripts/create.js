@@ -17,7 +17,7 @@ function create() {
 
   textAnswerArea.addEventListener('input', () => {
     if (textAnswerArea.value.length <= maxCharacters) {
-      typeAnswerCounter.textContent = `${textAnswerArea.value.length} /${maxCharacters}`;
+      typeAnswerCounter.textContent = `${textAnswerArea.value.length}/${maxCharacters}`;
     }
   });
 
